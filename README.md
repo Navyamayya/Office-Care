@@ -43,15 +43,15 @@ A pictorial representation is attached in repository.
   
   3.  Pass gate uses a Hobby Gearmotor connected with H-bridge motor driver, which drives the wheels connected to the door to open the gate. And a piezo(buzzer) is used to             generate the long beep noise of given frequencies after the closure of Gate.
 #  Contents of this repsitory
-1. Circuit Diagram/Simulation Diagram 
+1. Project Design 
 
-2.
+2. Circuit Diagram/Simulation wiring(Tinkercad)
 
+3. Component List (Excel)
 
+4. Program (.ino form)
 
-
-
-# Tinkercad Simmulation link
+# Tinkercad Simulation link
    > https://www.tinkercad.com/things/cIGn4kw4cmo
 
  
