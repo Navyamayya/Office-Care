@@ -1,5 +1,5 @@
 # Office-Care
-A Sanitizing Unit is built in every office to ensure the safety of the employees.
+A Sanitizing Unit built in the office to ensure the safety of the employees.
 #  Project Design
 1.	Automatic Welcome Gate
 
