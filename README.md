@@ -34,6 +34,13 @@ A pictorial representory is attached in repository
 3.	Automatic Pass Gate
       After giving enough time to sanitize, Pass Gate will be opened for 3 secs and denotes it by blinking green LED thrice as well as prints a message in LCD Display
       simultaneously. And then with a long beep sound the red light turns on denoting the closure of gate. 
+ #  Working
+    1.Automatic Welcome Gate uses PIR sensor which detects the motion when a person approaches the door and is opened using a Hobby Gearmotor connected with H-bridge    motordriver, which drives the wheels connected to the door.
+    
+   2. Automatic Sanitizer Dispenser uses an Ultrasonic Distance Sensor which detects the obstacle (i.e. Hand). If Ultrasonic sensor senses obstacle within Micro Servo motor is         rotated 180° which releases the liquid.
+   
+   3.Pass gate uses a Hobby Gearmotor connected with H-bridge motor driver, which drives the wheels connected to the door to open the gate. And a piezo(buzzer) is used to            generate the long beep noise of given frequencies after the closure of Gate.
+
   
 
 
