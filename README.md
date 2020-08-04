@@ -1,5 +1,5 @@
 # Office-Care
-A Sanitizing Unit built in the office to ensure the safety of the employees.
+A Sanitizing Unit built in the office to ensure the safety of the employees during pandemic.
 # Components Required
    1.Arduino Uno R3-×1
    
@@ -40,7 +40,14 @@ A pictorial representory is attached in repository
   2. Automatic Sanitizer Dispenser uses an Ultrasonic Distance Sensor which detects the obstacle (i.e. Hand). If Ultrasonic sensor senses obstacle within Micro Servo motor is        rotated 180° which releases the liquid.
   
   3. Pass gate uses a Hobby Gearmotor connected with H-bridge motor driver, which drives the wheels connected to the door to open the gate. And a piezo(buzzer) is used to            generate the long beep noise of given frequencies after the closure of Gate.
+#  Contents of this repsitory
 
+
+
+
+
+#Tinkercad Simmulation link
+   > https://www.tinkercad.com/things/cIGn4kw4cmo
 
  
 
