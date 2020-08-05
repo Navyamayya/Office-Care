@@ -1,5 +1,5 @@
 # Office-Care
-A Sanitizing Unit built in the office to ensure the safety of the employees during pandemic.
+A Sanitizing Unit built in the office to ensure the safety of the employees due to pandemic.
 # Components Required
    1. Arduino Uno R3-×1
    
@@ -56,7 +56,7 @@ A pictorial representation is attached in repository.
     
         #include <LiquidCrystal.h>
        
-     For more information about this library please visit us at http://www.arduino.cc/en/Reference/LiquidCrystal
+     For more information about this library please visit http://www.arduino.cc/en/Reference/LiquidCrystal
    2) Servo Library
       This library allows Arduino/Genuino boards to control a variety of servo motors.
       To install this->
@@ -70,17 +70,17 @@ A pictorial representation is attached in repository.
         
 	  #include <Servo.h>
 	  
-       For more information about this library please visit us at http://www.arduino.cc/en/Reference/Servo
+       For more information about this library please visit http://www.arduino.cc/en/Reference/Servo
        
       
-#  Contents of this repsitory
+#  Contents of this repository
 1. Project Design 
 
 2. Circuit Diagram/Simulation wiring(Tinkercad)
 
 3. Component List (Excel)
 
-4. Program (.ino form)
+4. Program(.ino form)
 
 # Tinkercad Simulation link
    > https://www.tinkercad.com/things/cIGn4kw4cmo
