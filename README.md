@@ -42,6 +42,37 @@ A pictorial representation is attached in repository.
   2.  Automatic Sanitizer Dispenser uses an Ultrasonic Distance Sensor which detects the distance of the obstacle (i.e. Hand). If Ultrasonic sensor senses obstacle within Micro       Servo motor is rotated 180° which releases the liquid.
   
   3.  Pass gate uses a Hobby Gearmotor connected with H-bridge motor driver, which drives the wheels connected to the door to open the gate. And a piezo(buzzer) is used to             generate the long beep noise of given frequencies after the closure of Gate.
+# Libraries Used
+  1) Liquid Crystal Library:
+     This library allows Arduino board to control LiquidCrystal displays (LCDs).
+     To install this->
+     Open the IDE and click to the "Sketch" menu and then Include Library > Manage Libraries.
+     
+        1.Then the Library Manager will open and you will find a list of libraries that are already installed or ready for installation...
+	
+        2.Search Liquid Crystal,finally click on install and wait for the IDE to install the new library.
+	
+      To use this library:
+    
+        #include <LiquidCrystal.h>
+       
+     For more information about this library please visit us at http://www.arduino.cc/en/Reference/LiquidCrystal
+   2) Servo Library
+      This library allows Arduino/Genuino boards to control a variety of servo motors.
+      To install this->
+      Open the IDE and click to the "Sketch" menu and then Include Library > Manage Libraries.
+     
+        1.Then the Library Manager will open and you will find a list of libraries that are already installed or ready for installation...
+	
+        2.Search Servo,finally click on install and wait for the IDE to install the new library.
+	
+       To use this library:
+        
+	  #include <Servo.h>
+	  
+       For more information about this library please visit us at http://www.arduino.cc/en/Reference/Servo
+       
+      
 #  Contents of this repsitory
 1. Project Design 
 
