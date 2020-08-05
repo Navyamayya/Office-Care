@@ -32,9 +32,9 @@ A Sanitizing Unit built in the office to ensure the safety of the employees due 
 2.	Sanitizing Area (Automatic Sanitizer Dispenser)->
          Sanitizing Area consists of an Automatic Sanitizer Dispenser. When the person places his/her hand below the sensor , it dispenses the liquid and prints a                        message on the LCD. After dispensing it gives few seconds for them to rub the liquid well on their hands. 
 3.	Automatic Pass Gate->
-         After giving enough time to sanitize, Pass Gate will be opened for 3 secs.It is denoted by a blinking green LED and the message on the LCD Display. After 3 sec Red              LED turns on denoting the closure of the gate along with a long beep sound.
+         After giving enough time to sanitize, Pass Gate will be opened for 3 secs.It is denoted by a blinking green LED and a message on the LCD Display. After 3 sec Red                LED turns on denoting the closure of the gate along with a long beep sound.
 
-A pictorial representation is attached in repository.
+      A pictorial representation is attached in repository.
 #  Working
   1.  Automatic Welcome Gate uses PIR sensor. PIR Sensor detects the motion of a person when he/she approaches the door.The door and is opened using a Hobby Gearmotor connected       to a H-bridge motor driver,which drives the wheels connected to the door.
   
