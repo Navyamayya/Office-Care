@@ -44,6 +44,7 @@ A Sanitizing Unit built in the office to ensure the safety of the employees due 
 # Libraries Used
   1) Liquid Crystal Library:
      This library allows Arduino board to control LiquidCrystal displays (LCDs).
+     
      To install this->
      Open the IDE and click to the "Sketch" menu and then Include Library > Manage Libraries.
      
@@ -58,6 +59,7 @@ A Sanitizing Unit built in the office to ensure the safety of the employees due 
      For more information about this library please visit http://www.arduino.cc/en/Reference/LiquidCrystal
    2) Servo Library
       This library allows Arduino/Genuino boards to control a variety of servo motors.
+      
       To install this->
       Open the IDE and click to the "Sketch" menu and then Include Library > Manage Libraries.
      
