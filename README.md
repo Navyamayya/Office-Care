@@ -1,17 +1,17 @@
 # Office-Care
 A Sanitizing Unit built in the office to ensure the safety of the employees due to pandemic.
 # Components Required
-   1. Arduino Uno R3-×1
+   1. Arduino Uno -×1
    
    2. LCD 16×2-×1
    
-   3. 220Ω,Potentiometer-×1
+   3. Potentiometer(220Ω)-×1
    
-   4. 220Ω,Resistors-×3
+   4. Resistor(220)-×3
    
    5. Hobby Gearmotor-×2
    
-   6. H-bridge Motor Driver-×1
+   6. H-bridge Motor Driver(L298D)-×1
    
    7. Micro Servo motor-×1
    
@@ -19,29 +19,28 @@ A Sanitizing Unit built in the office to ensure the safety of the employees due 
    
    9. Green LED-×1
    
-  10. Piezo-×1
+  10. Piezo(Buzzer)-×1
   
-  11. Ultrasonic Distance Sensor-×1 
+  11. Ultrasonic Distance Sensor(HC-SR04)-×1 
   
   12. PIR Sensor-×1
 
 #  Project Design
 
 1.	Automatic Welcome Gate->
-      Welcome gate is the glass door in the entrance of the office. When a person approaches the door, it opens automatically and as a sign of Welcoming it prints a ‘’Welcome’’         message in LCD simultaneously. 
+         Welcome gate is the glass door at the entrance of the office. When a person approaches the door, it opens automatically and a  Welcome message is displayed on the LCD . 
 2.	Sanitizing Area (Automatic Sanitizer Dispenser)->
-      Sanitizing Area consists an Automatic Sanitizer Dispenser. When the person stretches their hands towards the dispenser, it dispenses the liquid as well as it prints a             message in LCD. After dispensing it gives few seconds for them to rub the liquid well on their hands. 
+         Sanitizing Area consists of an Automatic Sanitizer Dispenser. When the person places his/her hand below the sensor , it dispenses the liquid and prints a                        message on the LCD. After dispensing it gives few seconds for them to rub the liquid well on their hands. 
 3.	Automatic Pass Gate->
-      After giving enough time to sanitize, Pass Gate will be opened for 3 secs and denotes it by blinking green LED thrice as well as prints a message in LCD Display
-      simultaneously. And then with a long beep sound the red light turns on denoting the closure of gate.
+         After giving enough time to sanitize, Pass Gate will be opened for 3 secs.It is denoted by a blinking green LED and the message on the LCD Display. After 3 sec Red              LED turns on denoting the closure of the gate along with a long beep sound.
 
 A pictorial representation is attached in repository.
 #  Working
-  1.  Automatic Welcome Gate uses PIR sensor which detects the motion when a person approaches the door and is opened using a Hobby Gearmotor connected with H-bridge motor             driver,which drives the wheels connected to the door.
+  1.  Automatic Welcome Gate uses PIR sensor. PIR Sensor detects the motion of a person when he/she approaches the door.The door and is opened using a Hobby Gearmotor connected       to a H-bridge motor driver,which drives the wheels connected to the door.
   
-  2.  Automatic Sanitizer Dispenser uses an Ultrasonic Distance Sensor which detects the distance of the obstacle (i.e. Hand). If Ultrasonic sensor senses obstacle within Micro       Servo motor is rotated 180° which releases the liquid.
+  2.  Automatic Sanitizer Dispenser uses an Ultrasonic Distance Sensor which detects the distance of the obstacle (i.e. Hand). If Ultrasonic sensor senses an obstacle within           30cm then the shaft of the MicroServo motor is rotated by 180°,the liquid is released.
   
-  3.  Pass gate uses a Hobby Gearmotor connected with H-bridge motor driver, which drives the wheels connected to the door to open the gate. And a piezo(buzzer) is used to             generate the long beep noise of given frequencies after the closure of Gate.
+  3.  Pass gate uses a Hobby Gearmotor connected to a H-bridge motor driver, which drives the wheels connected to the door.And a piezo(buzzer) is used to generate a long beep         noise of given frequencies after the closure of Gate.
 # Libraries Used
   1) Liquid Crystal Library:
      This library allows Arduino board to control LiquidCrystal displays (LCDs).
@@ -78,9 +77,9 @@ A pictorial representation is attached in repository.
 
 2. Circuit Diagram/Simulation wiring(Tinkercad)
 
-3. Component List (Excel)
+3. Component List
 
-4. Program(.ino form)
+4. Code.ino
 
 # Tinkercad Simulation link
    > https://www.tinkercad.com/things/cIGn4kw4cmo
