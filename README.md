@@ -3,7 +3,7 @@ A Sanitizing Unit built in the office to ensure the safety of the employees due 
 # Components Required
    1. Arduino Uno -×1
    
-   2. LCD 16×2-×1
+   2. LCD (16×2)-×1
    
    3. Potentiometer(220Ω)-×1
    
